@@ -9,7 +9,7 @@ namespace WebApplication1.Models.Entyties
     {
         public string Id { get; set; }
 
-        public int Name { get; set; }
+        public string Name { get; set; }
 
         public double Price { get; set; }
 
