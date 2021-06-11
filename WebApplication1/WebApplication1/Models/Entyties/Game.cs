@@ -7,7 +7,7 @@ namespace WebApplication1.Models.Entyties
 {
     public class Game
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         public int Name { get; set; }
 

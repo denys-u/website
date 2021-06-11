@@ -9,8 +9,8 @@ namespace WebApplication1.Providers.Abstractions
     public interface IGameProvider
     {
         Task<string> CreateAsync(Game game);
-        Task<bool> UpdateAsync(string id);
-        Task<bool> DeleteAsync(Game game);
+        Task<bool> UpdateAsync(Game game);
+        Task<bool> DeleteAsync(string id);
         Task<Game> GetByIdAsync(string id);
     }
 }
